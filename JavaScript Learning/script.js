@@ -19,7 +19,14 @@ console.log(`Population: ${population}`);
 */
 
 //----------- Primitive data types ----------------------
-
+/*
+-------------------------------------------------------------------------------
+    What are primitive data types?
+    Primitive data types are basic data types from which all other data types 
+    are constructed.
+    JavaScript primitive data types are data types that refer to a single value.
+-------------------------------------------------------------------------------
+*/
 // 1.Number: Floating point numbers used for decimal and
 // integers
 let age = 23;
