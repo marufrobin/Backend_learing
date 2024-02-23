@@ -27,8 +27,7 @@ console.log(`Population: ${population}`);
     JavaScript primitive data types are data types that refer to a single value.
 -------------------------------------------------------------------------------
 */
-// 1.Number: Floating point numbers used for decimal and
-// integers
+// 1.Number: Floating point numbers used for decimal and integers
 let age = 23;
 
 // 2. String: Sequence of character used for text
