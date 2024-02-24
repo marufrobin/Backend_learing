@@ -205,3 +205,18 @@ console.log(resultWithParentheses);
 let number = 5;
 number *= 3 + 2;
 console.log(number);
+
+/* Challenge 🙂 */
+const massMark = 78;
+const heightMark = 1.69;
+const massJhon = 92;
+const heightJhon = 1.95;
+
+const BMIMark = massMark / (heightMark * heightMark);
+const BMIJhon = massJhon / (heightJhon * heightJhon);
+
+console.log(BMIMark);
+console.log(BMIJhon);
+
+const markHigherBMI = BMIMark > BMIJhon;
+console.log(markHigherBMI);
