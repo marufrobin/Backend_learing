@@ -47,3 +47,7 @@ let children;
 
 // Note: JS has dynamic typing: we do not have to manually define the data type of the value stored in a variable
 // instead, data types are determined automatically
+fullName = "Maruf Ahmed Robin";
+typeof fullName;
+// outputs --> 'Maruf Ahmed Robin'
+//             'string'
