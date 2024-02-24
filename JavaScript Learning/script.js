@@ -220,3 +220,9 @@ console.log(BMIJhon);
 
 const markHigherBMI = BMIMark > BMIJhon;
 console.log(markHigherBMI);
+
+/*
+-------------------------------------------------------------------------------
+                         String and Template literals
+-------------------------------------------------------------------------------
+*/
