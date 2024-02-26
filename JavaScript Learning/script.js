@@ -234,3 +234,9 @@ console.log(markHigherBMI);
                          String and Template literals
 -------------------------------------------------------------------------------
 */
+const developerName = "Maruf Robin";
+const jobTitle = "Lead App Developer";
+const experience = "1.5 years";
+
+const fullString = `${developerName} ${jobTitle} ${experience}`;
+console.log(fullString);
