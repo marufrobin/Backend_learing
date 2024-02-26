@@ -330,6 +330,35 @@ console.log(String("14"), 14);
 console.log(typeof String("14"), typeof 14);
 
 // type coercion
+// Type coercion is the automatic conversion of values between different data types during operations.
+// JavaScript is a loosely-typed language, which means that variables can change types as needed.
+
+let result = "5" + 3; // JavaScript coerces the number to a string
+console.log(result); // Output: "53"
+
+// Implicit type coercion is performed automatically by JavaScript during operations, as seen in the example above.
+// Explicit type conversion involves using functions or methods to consciously change the data type
+
+// Implicit type coercion
+let implicitResult = "5" * 1; // JavaScript coerces the string to a number
+console.log(implicitResult); // Output: 5
+
+// Explicit type conversion
+let explicitResult = Number("5"); // Convert string to number
+console.log(explicitResult); // Output: 5
+
 console.log("I am " + 23 + " years old");
 console.log("23" - "10" - 3);
 console.log("23" * "2");
+
+let n = "1" + 1;
+n = n - 1;
+console.log(n);
+
+// Truthy and Falsy Values:
+let value = "Hello";
+if (value) {
+  console.log("Truthy");
+} else {
+  console.log("Falsy");
+}
