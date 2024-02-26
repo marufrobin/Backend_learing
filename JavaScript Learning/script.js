@@ -239,4 +239,9 @@ const jobTitle = "Lead App Developer";
 const experience = "1.5 years";
 
 const fullString = `${developerName} ${jobTitle} ${experience}`;
+const fullString2 = `${developerName}
+ ${jobTitle}
+  ${experience}`;
+
 console.log(fullString);
+console.log(fullString2);
