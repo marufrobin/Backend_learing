@@ -380,3 +380,13 @@ if (height) {
                          Equality operators == vs. ===
 --------------------------------------------------------------------------
 */
+
+const age = 23;
+const fullName = "23";
+const years = 23;
+
+console.log(age == fullName); // Equal: true (equal to)
+console.log(age === fullName); // Equal:false (equal value and equal type)
+
+console.log(age != fullName); // Equal: false (not equal)
+console.log(age !== fullName); // Equal: true (not equal value or not equal type)
