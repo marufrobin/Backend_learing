@@ -316,7 +316,7 @@ if (BMIMark > BMIJohn) {
 --------------------------------------------------------------------------
                          Type conversion and coercion
 --------------------------------------------------------------------------
-*/
+
 
 // type conversion
 const inputYear = "1991";
@@ -356,9 +356,27 @@ n = n - 1;
 console.log(n);
 
 // Truthy and Falsy Values:
+// Type coercion is often encountered when dealing with truthy and falsy values.
+// Values like 0, "", null, undefined, NaN are considered falsy, and other values are truthy.
 let value = "Hello";
 if (value) {
   console.log("Truthy");
 } else {
   console.log("Falsy");
 }
+
+
+let height = 1;
+if (height) {
+  console.log("Height define kora ase vai!");
+} else {
+  console.log("Height koi sala?");
+}
+
+*/
+
+/*
+--------------------------------------------------------------------------
+                         Equality operators == vs. ===
+--------------------------------------------------------------------------
+*/
