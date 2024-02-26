@@ -238,6 +238,7 @@ const developerName = "Maruf Robin";
 const jobTitle = "Lead App Developer";
 const experience = "1.5 years";
 
+// Template literals
 const fullString = `${developerName} ${jobTitle} ${experience}`;
 const fullString2 = `${developerName}
  ${jobTitle}
