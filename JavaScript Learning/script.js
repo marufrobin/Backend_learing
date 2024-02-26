@@ -79,7 +79,7 @@ birthYear = 1998; //Output --> TypeError: Assignment to constant variable.
 -------------------------------------------------------------------------------
                                 Basic Operator
 -------------------------------------------------------------------------------
-*/
+
 const now = 2024;
 const ageRobin = now - 1997;
 const ageOfNameNai = now - 2000;
@@ -88,12 +88,14 @@ console.log(ageRobin * 2, ageOfNameNai / 2, 2 ** 3); //2 ** 3 means 3 = 2 * 2 * 
 const firstName = "Maruf";
 const lastName = "Robin";
 console.log(firstName + " " + lastName);
+*/
+
 //--------------------------------------------------------------------------
 /* 
 ---------------------------------------------------------------------
     Assignment operators
 -------------------------------------------------------------------
-*/
+
 let x = 20 + 10;
 console.log(x);
 x += 5; // x = x + 5 = 35;
@@ -102,18 +104,20 @@ x++;
 console.log(x);
 x--;
 console.log(x);
+*/
 
 /* 
 --------------------------------------------------------------
     Comparison operators
     > , < , >= , <=
 --------------------------------------------------------------
-*/
+
 console.log(ageRobin > ageOfNameNai); // true
 
 console.log(ageRobin >= 18); // true
 
 console.log(ageRobin <= 18); // false
+*/
 
 /* 
 --------------------------------------------------------------
@@ -148,9 +152,10 @@ console.log(ageRobin <= 18); // false
 
     Output: 14
 --------------------------------------------------------------
-*/
+
 let result = 2 + 3 * 4;
 console.log(result);
+*/
 
 /*
 --------------------------------------------------------------
@@ -161,9 +166,10 @@ console.log(result);
 
     Output: true
 --------------------------------------------------------------
-*/
+
 let comparisonResult = 5 > 3 && 2 <= 4;
 console.log(comparisonResult);
+*/
 
 /*
 --------------------------------------------------------------
@@ -174,10 +180,11 @@ console.log(comparisonResult);
     
     Output: Eligible
 --------------------------------------------------------------
-*/
+
 let age = 20;
 let eligibility = age >= 18 ? "Eligible" : "Not Eligible";
 console.log(eligibility);
+*/
 
 /*
 --------------------------------------------------------------
@@ -188,9 +195,10 @@ console.log(eligibility);
     
     Output: 20
 --------------------------------------------------------------
-*/
+
 let resultWithParentheses = (2 + 3) * 4;
 console.log(resultWithParentheses);
+*/
 
 /*
 --------------------------------------------------------------
@@ -201,12 +209,12 @@ console.log(resultWithParentheses);
     
     Output: 25
 --------------------------------------------------------------
-*/
+
 let number = 5;
 number *= 3 + 2;
 console.log(number);
-
-/* Challenge 🙂 */
+*/
+/* Challenge 🙂 
 const massMark = 78;
 const heightMark = 1.69;
 const massJhon = 92;
@@ -220,7 +228,7 @@ console.log(BMIJhon);
 
 const markHigherBMI = BMIMark > BMIJhon;
 console.log(markHigherBMI);
-
+*/
 /*
 -------------------------------------------------------------------------------
                          String and Template literals
