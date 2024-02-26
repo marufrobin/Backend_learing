@@ -233,7 +233,7 @@ console.log(markHigherBMI);
 -------------------------------------------------------------------------------
                          String and Template literals
 -------------------------------------------------------------------------------
-*/
+
 const developerName = "Maruf Robin";
 const jobTitle = "Lead App Developer";
 const experience = "1.5 years";
@@ -246,3 +246,66 @@ const fullString2 = `${developerName}
 
 console.log(fullString);
 console.log(fullString2);
+*/
+
+/*
+-------------------------------------------------------------------------------
+                         if/else statement
+-------------------------------------------------------------------------------
+*/
+
+const age = 17;
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+  console.log("Robin is old enough for driving.");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(
+    `Robin is not old enough for driving.Wait another ${yearsLeft} years.`
+  );
+}
+
+const birthYear = 1991;
+let century;
+
+// variable that is declare inside the if/else statement
+//can not accessible from outside
+
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
+
+/*
+-------------------------------------------------------------------------------
+                         CHALLENGE #2
+-------------------------------------------------------------------------------
+*/
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+
+const BMIMark = massMark / (heightMark * heightMark);
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log(BMIMark, BMIJohn);
+if (BMIMark > BMIJohn) {
+  console.log("Mark's BMI is higher than John's!");
+} else {
+  console.log("John's BMI is higher than Mark's!");
+}
+
+if (BMIMark > BMIJohn) {
+  console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`);
+} else {
+  console.log("John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!");
+}
+
+/*
+--------------------------------------------------------------------------
+                         if/else statement
+--------------------------------------------------------------------------
+*/
