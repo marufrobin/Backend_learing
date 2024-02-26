@@ -299,9 +299,15 @@ if (BMIMark > BMIJohn) {
 }
 
 if (BMIMark > BMIJohn) {
-  console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`);
+  console.log(
+    `Mark's BMI (${BMIMark.toFixed(
+      1
+    )}) is higher than John's (${BMIJohn.toFixed(1)})!`
+  );
 } else {
-  console.log("John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!");
+  console.log(
+    "John's BMI (${BMIJohn.toFixed(1)}) is higher than Mark's (${BMIMark.toFixed(1)})!"
+  );
 }
 
 /*
