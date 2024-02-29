@@ -487,3 +487,18 @@ TEST DATA:
                          Statements and Expressions
 --------------------------------------------------------------------------
 */
+
+// const shouldPrint = true;
+
+// //work
+// console.log(`my name is ${shouldPrint?"robin":"maruf"}`);
+
+// // Not work
+
+// console.log(`my name is ${if (shouldPrint) {
+//   'robin'
+// } else"maruf"}`);
+
+/*--------------------------------------------------------------------------
+                         The conditional (Ternary) Operator
+--------------------------------------------------------------------------*/
