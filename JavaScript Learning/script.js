@@ -458,26 +458,26 @@ TEST DATA:
 --------------------------------------------------------------------------
 */
 
-const day = "Tuesday";
-switch (day) {
-  // day === "Tuesday"
-  // Switch use for check equality
-  case "Monday":
-    console.log("I will go Dhaka.");
-    console.log("Coding meetup.");
-    break;
-  case "Tuesday":
-    console.log("Prepare theory videos");
-    break;
-  case "Firday":
-    console.log("Learning coding");
-    break;
-  case "Saturday":
-    console.log("Learning ML");
-    break;
-  case "Sunday":
-    console.log("learning IOS publish.");
-    break;
-  default:
-    console.log("Sleeping...");
-}
+// const day = "Tuesday";
+// switch (day) {
+//   // day === "Tuesday"
+//   // Switch use for check equality
+//   case "Monday":
+//     console.log("I will go Dhaka.");
+//     console.log("Coding meetup.");
+//     break;
+//   case "Tuesday":
+//     console.log("Prepare theory videos");
+//     break;
+//   case "Friday":
+//     console.log("Learning coding");
+//     break;
+//   case "Saturday":
+//     console.log("Learning ML");
+//     break;
+//   case "Sunday":
+//     console.log("learning IOS publish.");
+//     break;
+//   default:
+//     console.log("Sleeping...");
+// }
