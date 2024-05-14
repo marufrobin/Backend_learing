@@ -4,10 +4,9 @@
 // const fullName =  `${firstName} ${midelName} ${myName}`;
 // console.log(fullName);
 
-
-//* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
-//* * * * * * * Read and write from file * * * * * * * * * * * *  
-//* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+//* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+//* * * * * * * Read and write from file * * * * * * * * * * * *
+//* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
 // const fs = require('fs');
 // var textIn = fs.readFileSync('./1-node-farm/starter/txt/read-this.txt',"utf-8");
@@ -20,4 +19,4 @@
 
 // console.log(textout);
 
-//* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+//* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
