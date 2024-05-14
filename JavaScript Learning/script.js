@@ -588,3 +588,28 @@ Year -->	ECMA	-->  Browser
 2017 -->	ES6 	-->  Full support for ES6 in Edge 15
 2018 -->	ES6 	-->  Full support for ES6 in all browsers 
 **/
+
+//----------------------------------------------------------------
+// -------------------- Activate Strict mode ---------------------
+//----------------------------------------------------------------
+// "use strict";
+
+// let hasDriversLicense = false;
+// const passTest = true;
+
+// if (passTest) {
+//   hasDriversLicense = true;
+// }
+
+// if (hasDriversLicense) {
+//   console.log("I can drive :D");
+// }
+
+//----------------------------------------------------------------
+// ------------------------ Function -----------------------------
+//----------------------------------------------------------------
+
+function logger() {
+  console.log("Hello, From function");
+}
+logger();
