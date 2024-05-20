@@ -609,7 +609,22 @@ Year -->	ECMA	-->  Browser
 // ------------------------ Function -----------------------------
 //----------------------------------------------------------------
 
-function logger() {
-  console.log("Hello, From function");
-}
-logger();
+// function logger() {
+//   console.log("Hello, From function");
+// }
+// logger();
+// logger();
+
+// function fruitProcessor(apples, oranges) {
+//   console.log(apples, oranges);
+//   const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+//   return juice;
+// }
+
+// fruitProcessor(5, 0);
+
+// console.log(fruitProcessor(4, 5));
+
+// const applesJuice = fruitProcessor(3, 0);
+
+// console.log(applesJuice);
