@@ -712,3 +712,8 @@ const calcAge = function (brithYear) {
 const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[2])];
 console.log(ages);
 // END--->> introduction of array
+
+
+// START--->> Basic array operations(Methods)
+
+// END--->> Basic array operations(Methods)
