@@ -628,3 +628,87 @@ Year -->	ECMA	-->  Browser
 // const applesJuice = fruitProcessor(3, 0);
 
 // console.log(applesJuice);
+// const calAge3 = (brithYear) => 2024 - brithYear;
+
+// console.log(calAge3(1997));
+
+// const personRetirement = (personAge, personName) => {
+//   const retirementYear = 59 + personAge;
+//   const yearLeftToRetire = retirementYear - 2024;
+//   return `${personName} born in ${personAge} will retire at the age 65 in ${retirementYear} and only ${yearLeftToRetire} years`;
+// };
+
+// console.log(personRetirement(1997, "Robin"));
+
+// function cutFruitPieces(fruit) {
+//   return fruit * 4;
+// }
+
+// function fruitProcessor(apples, oranges) {
+//   const applePieces = cutFruitPieces(apples);
+//   const orangePieces = cutFruitPieces(oranges);
+
+//   console.log(apples, oranges);
+//   const juice = `Juice with ${applePieces} apple pieces and ${orangePieces} orange pieces.`;
+//   return juice;
+// }
+
+// fruitProcessor(5, 0);
+
+// console.log(fruitProcessor(4, 5));
+
+//----------------------------------------------------------------
+// ------------------------ Challenge -----------------------------
+//----------------------------------------------------------------
+
+// const calcAverage = (num1, num2, num3) => (num1 + num2 + num3) / 3;
+
+// const scoreDolphins = calcAverage(96, 108, 89);
+// const scoreKoalas = calcAverage(88, 91, 110);
+
+// function checkWinner(avgDolphins, avgKoalas) {
+//   if (avgDolphins * 2 <= avgKoalas) {
+//     console.log(`Koalas win (${avgDolphins} vs. ${avgKoalas})`);
+//   } else if (avgDolphins >= 2 * avgKoalas) {
+//     console.log(`Dolphins win (${avgDolphins} vs. ${avgKoalas})`);
+//   } else {
+//     console.log("No team wins...");
+//   }
+// }
+
+// checkWinner(scoreDolphins, scoreKoalas);
+/*
+--------------------------------------------------------------------------
+                         Array 
+--------------------------------------------------------------------------
+*/
+// start--->> introduction of array
+const friend1 = "Maruf";
+const friend2 = "Ahmed";
+const friend3 = "Robin";
+
+const friends = ["Maruf", "Ahmed", "Robin"];
+
+console.log(friends);
+
+const years = new Array(1997, 1996, 1995, 1994, 1993);
+
+console.log(years);
+console.log(friends[0]);
+console.log(friends[2]);
+console.log(friends.length);
+
+console.log(friends[friends.length - 1]);
+
+friends[2] = "Marlin";
+console.log(friends);
+const newArray = ["my", 1997, friends];
+console.log(newArray);
+
+const calcAge = function (brithYear) {
+  return 2024 - brithYear;
+};
+
+const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[2])];
+console.log(ages);
+// END--->> introduction of array
