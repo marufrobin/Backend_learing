@@ -683,37 +683,118 @@ Year -->	ECMA	-->  Browser
 --------------------------------------------------------------------------
 */
 // start--->> introduction of array
-const friend1 = "Maruf";
-const friend2 = "Ahmed";
-const friend3 = "Robin";
+// const friend1 = "Maruf";
+// const friend2 = "Ahmed";
+// const friend3 = "Robin";
 
-const friends = ["Maruf", "Ahmed", "Robin"];
+// const friends = ["Maruf", "Ahmed", "Robin"];
 
-console.log(friends);
+// console.log(friends);
 
-const years = new Array(1997, 1996, 1995, 1994, 1993);
+// const years = new Array(1997, 1996, 1995, 1994, 1993);
 
-console.log(years);
-console.log(friends[0]);
-console.log(friends[2]);
-console.log(friends.length);
+// console.log(years);
+// console.log(friends[0]);
+// console.log(friends[2]);
+// console.log(friends.length);
 
-console.log(friends[friends.length - 1]);
+// console.log(friends[friends.length - 1]);
 
-friends[2] = "Marlin";
-console.log(friends);
-const newArray = ["my", 1997, friends];
-console.log(newArray);
+// friends[2] = "Marlin";
+// console.log(friends);
+// const newArray = ["my", 1997, friends];
+// console.log(newArray);
 
-const calcAge = function (brithYear) {
-  return 2024 - brithYear;
-};
+// const calcAge = function (brithYear) {
+//   return 2024 - brithYear;
+// };
 
-const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[2])];
-console.log(ages);
-// END--->> introduction of array
+// const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[2])];
+// console.log(ages);
+// // END--->> introduction of array
 
+// // START--->> Basic array operations(Methods)
 
-// START--->> Basic array operations(Methods)
+// // push method add value at the end of the array
+// // and also returns the new length of the array
+// const newLength = friends.push("My name");
+// console.log(friends);
+// console.log(newLength);
 
-// END--->> Basic array operations(Methods)
+// // add element to the beganing of the array
+// friends.unshift("Hi");
+// console.log(friends);
+
+// //Remove elements
+// // array pop method remove elements at last index
+// // pop method returns the removed element
+// const removeElement = friends.pop();
+// console.log(friends);
+// const removeElement2 = friends.pop();
+// console.log(friends);
+// console.log(removeElement);
+// console.log(removeElement2);
+
+// // use shift remove elements from first of the array
+// // it returns which elements it removed
+// const removeElement3 = friends.shift();
+// console.log(friends);
+// console.log(removeElement3);
+
+// // indexOf method returns which index the given elements are in
+// const elementLocation = friends.indexOf("Maruf");
+// console.log(elementLocation);
+
+// // in indexOf returns -1 when elements not available
+// // but using includes method returns true or false
+// // and it's sticly typed
+// friends.push(23);
+// console.log(friends.includes("Ahmed")); // true
+// console.log(friends.includes("23")); // false
+// console.log(friends.includes(23)); // true
+
+// // END--->> Basic array operations(Methods)
+
+/*
+CHALLENGE #2
+
+Steven wants you to improve his tip calculator, using the same rules as 
+before — tip 15% of the bill if the bill value is between 50 and 300, 
+and if the value is different, the tip is 20%.
+
+Your tasks:
+
+    Write a function calcTip that takes any bill value as an input and 
+    returns the corresponding tip, calculated based on the rules above 
+    (you can check out the code from the first tip calculator challenge 
+    if you need to). Use the function type you like the most. Test the 
+    function using a bill value of 100.
+
+    And now let's use arrays! So, create an array called bills containing 
+    the test data below.
+
+    Create an array called tips containing the tip value for each bill, 
+    calculated from the function you created before.
+
+    BONUS: Create an array totals containing the total values, so the 
+    bill + tip.
+
+TEST DATA: 125, 555, and 44.
+*/
+
+// const bill = 275;
+
+// // let tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+
+// const calcTip = (bilValue) =>
+//   bilValue >= 50 && bilValue <= 300 ? bilValue * 0.15 : bilValue * 0.2;
+
+// // console.log(calcTip(100));
+
+// const bills = [125, 555, 44];
+// const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+
+// const total = bills[0] + tips[0] + bills[1] + tips[1] + bills[2] + tips[2];
+// console.log(bills);
+// console.log(tips);
+// console.log(total);
